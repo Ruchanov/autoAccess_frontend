@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+    min-height: 100vh;
+    background: rgb(7,14,23); /* Основной цвет фона */
+    background: linear-gradient(180deg, rgba(7,14,23,1) 0%, rgba(10,21,30,1) 50%, rgba(7,14,23,1) 100%); /* Градиент */
+}
+
+.loading {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.detailsWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.carImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.details {
+    background-color: rgb(10,21,30);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+.details p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    .detailsWrapper {
+        flex-direction: column;
+    }
+
+    .carImage {
+        max-width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .details {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}

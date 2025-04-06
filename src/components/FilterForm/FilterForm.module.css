@@ -1,0 +1,29 @@
+.filterForm {
+    background-color: rgb(10,21,30);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+}
+
+.filterForm input[type="number"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    width: calc(100% - 20px);
+}
+
+.filterForm button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.filterForm button:hover {
+    background-color: #45a049;
+}

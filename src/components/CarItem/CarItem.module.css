@@ -1,0 +1,59 @@
+.carItem {
+    background-color: #242424;
+    color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.carItem:hover {
+    transform: translateY(-5px);
+}
+
+.carImage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.carInfo {
+    padding: 15px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.likeIcon {
+    cursor: pointer;
+}
+
+.liked {
+    color: #e63946;
+}
+
+.details p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+.footer {
+    padding-top: 10px;
+    border-top: 1px solid #393939;
+    text-align: right;
+}
+
+.footer p {
+    margin: 0;
+    font-weight: 500;
+    font-size: 1.1rem;
+}

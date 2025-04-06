@@ -1,0 +1,66 @@
+/* MainPage.css */
+.main-page {
+    font-family: 'Arial', sans-serif; /* Выберите подходящий шрифт */
+    color: #ffffff;
+    text-align: center;
+    background: rgb(2,12,23);
+}
+
+hr{
+    width: 100%;
+}
+.footer {
+    background-color: rgb(0,7,17);
+    text-align: center;
+    padding: 10px;
+}
+
+.main-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+    background: rgb(2,12,23);
+    flex: 1;
+}
+.hero-text {
+    flex-basis: 50%;
+}
+
+.hero-text h1 {
+    font-size: 2.5em;
+}
+
+.hero-text p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.hero-buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero-buttons button:hover {
+    background-color: #ddd;
+}
+
+.hero-image {
+    flex-basis: 50%;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,9 @@
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(7,14,23); /* Dark background color, similar to the main page */
+    color: white; /* White text for better visibility on dark background */
+    min-height: 100vh; /* Minimum height to cover the entire screen */
+}

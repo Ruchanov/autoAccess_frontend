@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: #fff;
+    min-height: 100vh;
+}
+
+.h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.carsList {
+    width: 100%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.carItem {
+    background-color: #333;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.carImage {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.carInfo {
+    padding: 10px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.likeIcon {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.liked {
+    color: red;
+    transform: scale(1.1);
+}
+
+.details {
+    margin: 10px 0;
+}
+
+.footer {
+    font-weight: bold;
+    text-align: right;
+}

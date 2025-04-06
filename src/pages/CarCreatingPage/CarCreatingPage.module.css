@@ -1,0 +1,11 @@
+.carCreatingContainer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+
+
